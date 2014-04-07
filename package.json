@@ -1,22 +1,24 @@
 {  
-   "name":  "mywebapp",  
-   "version":  "0.0.1",  
-   "author":  "Alex Fung",  
-   "scripts":  {  
+   "name": "mywebapp",  
+   "version": "0.0.1",  
+   "author": "Alex Fung",  
+   "scripts": {  
        "start":  "node app.js"  
    },  
-   "dependencies":  {  
-       "express":  "3.x",  
-       "express3-­‐handlebars":  "*",  
-       "mongodb":  "*",  
-       "mongoose":  "*",  
-       "passport":  "*",  
-       "passport-facebook":  "*",  
+   "dependencies": {  
+       "express": "3.x",  
+       "express3-handlebars": "*",  
+       "mongodb": "*",  
+       "mongoose": "*",  
+       "passport": "*",  
+       "passport-facebook": "*",  
        "passport-twitter":  "*",  
-       "superagent":  "0.14.6",  
-       "consolidate":  "0.9.1"  
+       "superagent": "0.14.6",  
+       "consolidate": "0.9.1",
+       "dotenv": "*",
+       "instagram-node-lib": "*"
    },  
-   "engines":  {  
-       "node":  "0.10.x"  
+   "engines": {  
+       "node": "0.10.x"  
    }      
-}
+} 
